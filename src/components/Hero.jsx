@@ -184,34 +184,52 @@ const Hero = () => {
               <div className={classes.heroButtons}>
                 <Grid container spacing={2}>
                   <Grid item>
-                    <Button variant="outlined" color="secondary">
-                      <WhatsApp
-                        className={classes.icon}
-                        fontSize="small"
-                        color="secondary"
-                      />
-                      WhatsApp
-                    </Button>
+                    <a
+                      href="https://api.whatsapp.com/send?phone=5551982817818"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Button variant="outlined" color="secondary">
+                        <WhatsApp
+                          className={classes.icon}
+                          fontSize="small"
+                          color="secondary"
+                        />
+                        WhatsApp
+                      </Button>
+                    </a>
                   </Grid>
                   <Grid item>
-                    <Button variant="outlined" color="secondary">
-                      <LinkedInIcon
-                        className={classes.icon}
-                        fontSize="small"
-                        color="secondary"
-                      />
-                      Linkedin
-                    </Button>
+                    <a
+                      href="https://www.linkedin.com/in/augusto-mallmann/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Button variant="outlined" color="secondary">
+                        <LinkedInIcon
+                          className={classes.icon}
+                          fontSize="small"
+                          color="secondary"
+                        />
+                        Linkedin
+                      </Button>
+                    </a>
                   </Grid>
                   <Grid item>
-                    <Button variant="outlined" color="secondary">
-                      <Github
-                        className={classes.icon}
-                        fontSize="small"
-                        color="secondary"
-                      />
-                      Github
-                    </Button>
+                    <a
+                      href="https://github.com/augustomallmann"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Button variant="outlined" color="secondary">
+                        <Github
+                          className={classes.icon}
+                          fontSize="small"
+                          color="secondary"
+                        />
+                        Github
+                      </Button>
+                    </a>
                   </Grid>
                 </Grid>
               </div>
